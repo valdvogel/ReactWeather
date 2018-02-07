@@ -14,7 +14,10 @@ var React = require('react');
 //STATELESS FUNCTIONAL COMPONENT
 var Example = (props)=> {
     return(
-        <h3>Example</h3>
+        <div>
+            <h3>Example</h3>
+            <p>Example page</p>
+        </div>
     );
 
 };

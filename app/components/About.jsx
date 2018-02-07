@@ -12,7 +12,10 @@ var React = require('react');
 //STATELESS FUNCTIONAL COMPONENT
 var About = (props) =>{
     return (
-        <h3>About</h3>
+        <div>
+            <h3>About</h3>
+            <p>About page</p>
+        </div>
     );
 };
 
