@@ -18,7 +18,7 @@ module.exports = {
             }
         }, function (res) {
             console.log(res);
-            throw new Error(res.data.message);
+            throw new Error(res.message);
         });
 
     }
